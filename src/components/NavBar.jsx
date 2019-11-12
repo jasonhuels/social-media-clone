@@ -12,6 +12,7 @@ function NavBar(){
           border: solid 2px lightgrey;
           border-radius: 0;
           padding 10px;
+
         }
         .navSearch{
           float:  right ;

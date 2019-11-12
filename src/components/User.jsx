@@ -10,42 +10,52 @@ function User() {
       <style jsx>{`
 
     .userPic {
-      margin-top: -20px
-      background-color: #457dd1;
+      margin-top: -20%;
+      background-color: #68a1cc;
       border: solid 5px white;
       border-radius: 28px;
-      width: 100px;
+      margin-left: 15%;
+      width: 50%;
+      z-index: 2;
     }
     .imageArea{
-      margin-top: 50%;
-      
+      margin-top: 25%;
+      width: 50%;
     }
     .nameDisp{
       float: right;
       background-color: white;
-      margin-top: 75%;
+      padding-right: 3%;
+      position: relative;
+      width: 100%;
+      height: 50%;
       
     }
     .userBox{
       border: solid 2px grey;
-      background-color: #457dd1;
+      background-color: #68a1cc;
+      height: 33%;
 
     }
     .centered{
       text-align: center;
     }
+    .nameText{
+      text-align: right;
+    }
+    
     `}</style>
 
-      <div className="row">
+
 
         <div className="imageArea">
           <img className="userPic" src="https://icon-library.net/images/profile-picture-icon/profile-picture-icon-22.jpg" alt="" />
         </div>
         <div className="nameDisp">
-          <h3 >Kellie A. Corrigan</h3>
+          <h5 className="nameText" >Kellie A. Corrigan</h5>
+          <p className="centered">TWEETS FOLLOWING FOLLOWERS</p>
         </div>
-          <h5 className="centered">TWEETS FOLLOWING FOLLOWERS</h5>
-      </div>
+
     </div>
   );
 }
