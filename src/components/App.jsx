@@ -3,6 +3,7 @@ import Feed from "./Feed";
 import NavBar from "./NavBar";
 import User from "./User";
 import Bio from "./Bio";
+import FriendsList from "./FriendsList";
 
 function App(){
   return (
@@ -16,7 +17,8 @@ function App(){
       <NavBar/>
       <div className="row">
         <div className="col-md-3"><User/><Bio/></div>
-        <div className="col-md-6"><Feed/></div>
+        <div className="col-md-6"><input placeholder="What's happening?"></input><Feed/></div>
+        <div className="col-md-3"><FriendsList/></div>
       </div>
     </div>
   );

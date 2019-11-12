@@ -23,12 +23,13 @@ function User() {
     .nameDisp{
       float: right;
       background-color: white;
-      margin-top: 200px;
-      width: 100%;
+      margin-top: 75%;
+      
     }
     .userBox{
       border: solid 2px grey;
       background-color: #457dd1;
+
     }
     .centered{
       text-align: center;
@@ -40,10 +41,10 @@ function User() {
         <div className="imageArea">
           <img className="userPic" src="https://icon-library.net/images/profile-picture-icon/profile-picture-icon-22.jpg" alt="" />
         </div>
-        <div className="nameDisp col-md-8">
+        <div className="nameDisp">
           <h3 >Kellie A. Corrigan</h3>
-          <h5 className="centered">TWEETS FOLLOWING FOLLOWERS</h5>
         </div>
+          <h5 className="centered">TWEETS FOLLOWING FOLLOWERS</h5>
       </div>
     </div>
   );
